@@ -1,11 +1,11 @@
 # 🧠 GPU Shortage Sentiment Analysis
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white)
-![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white)  
+![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)  
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)  
 ![Model](https://img.shields.io/badge/Model-DistilBERT-yellow?logo=huggingface&logoColor=black)
 
-Analisi del sentiment su tweet riguardanti le principali aziende produttrici di GPU (NVIDIA, AMD, Intel) durante il periodo di **shortage globale di schede video** (2020–2021), con tecniche di NLP e modelli preaddestrati di Hugging Face.
+Sentiment analysis on tweets related to the main GPU manufacturers (NVIDIA, AMD, Intel) during the **global graphics card shortage** (2020–2021), using NLP techniques and pretrained models from Hugging Face.
 
 ---
 
@@ -21,65 +21,63 @@ Analisi del sentiment su tweet riguardanti le principali aziende produttrici di 
 
 ---
 
-## 📁 Contenuto del progetto
+## 📁 Project Structure
 
-- `main.ipynb` — Notebook principale con tutte le fasi:
-  - Caricamento e pulizia dati
-  - Preprocessing del testo
-  - Sentiment analysis (DistilBERT via HuggingFace)
-  - Analisi esplorativa (visualizzazioni, WordCloud)
-  - Analisi per brand (NVIDIA, AMD, Intel)
-- `utils/` — Funzioni riutilizzabili
-- `data/` — Dataset dei tweet (non incluso)
-- `output/` — File CSV con i risultati (facoltativo)
-- `requirements.txt` — Librerie richieste
+- `main.ipynb` — Main notebook covering all steps:
+  - Data loading and cleaning  
+  - Text preprocessing  
+  - Sentiment analysis (DistilBERT via Hugging Face)  
+  - Exploratory data analysis (visuals, WordCloud)  
+  - Brand-specific analysis (NVIDIA, AMD, Intel)  
+- `utils/` — Reusable utility functions  
+- `data/` — Tweet dataset (not included)  
+- `output/` — CSV output files (optional)  
+- `requirements.txt` — Required libraries  
 
 ---
 
 ## 🤗 Sentiment Analysis
 
-Il modello utilizzato è:
+The model used:
 
 > `distilbert-base-uncased-finetuned-sst-2-english`
 
-Via HuggingFace `pipeline`, il sentiment è assegnato come:
+Using Hugging Face's `pipeline`, sentiment is classified as:
 - `positive`
 - `negative`
 
 ---
 
-## 📊 Analisi effettuate
+## 📊 Analysis Performed
 
-- Distribuzione dei tweet per sentiment
-- Andamento del sentiment nel tempo
-- Boxplot dello score
-- WordCloud per tipo di sentiment
-- Retweet medi per sentimento
-- Analisi per brand (NVIDIA, AMD, Intel, altro)
+- Sentiment distribution of tweets  
+- Sentiment trends over time  
+- Score boxplots  
+- WordClouds by sentiment  
+- Average retweets per sentiment  
+- Brand-wise analysis (NVIDIA, AMD, Intel, others)  
 
 ---
 
-## 📷 Esempi di output
+## 📷 Sample Outputs
 
-| Distribuzione sentiment | WordCloud Positivi |
-|-------------------------|--------------------|
+| Sentiment Distribution | Positive WordCloud |
+|------------------------|--------------------|
 | ![](img/sentiment_distribution.png) | ![](img/wordcloud_positive.png) |
 
 ---
 
-## ⚙️ Esecuzione
+## ⚙️ How to Run
 
-1. Clona la repository
-2. Installa i requisiti:
+1. Clone the repository  
+2. Install the required packages:
    ```bash
    pip install -r requirements.txt
-3. Avvia il notebook:
-   ```bash
-   jupyter notebook main.ipynb
+
 
 ## Requirements
 
-Per far funzionare correttamente questo progetto, assicurati di avere installate le seguenti librerie Python:
+To run this project, make sure you have the following Python libraries installed:
 
 - pandas  
 - numpy  
@@ -92,13 +90,13 @@ Per far funzionare correttamente questo progetto, assicurati di avere installate
 
 ## 📄 Licenza
 
-Questo progetto è rilasciato sotto licenza **Apache 2.0**.  
-I dati originali dei tweet non sono redistribuiti per motivi di licenza.
+This project is released under the Apache 2.0 license.
+The original tweet data is not redistributed due to licensing restrictions.
 
 ---
 
-## 👤 Autore
+## 👤 Author
 
-Salvatore Zizzi — Studente di Statistica, appassionato di NLP e AI.  
+Salvatore Zizzi — Statistics graduate, passionate about NLP and AI. 
 📫 [LinkedIn](https://www.linkedin.com/in/salvatore-zizzi-242151107/)
 
