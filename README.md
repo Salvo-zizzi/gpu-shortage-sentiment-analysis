@@ -1,4 +1,4 @@
-# 🧠 GPU Shortage Sentiment Analysis
+# 🧠 GPU Shortage Sentiment Analysis (GPU market analysis V 1.0)
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white)  
 ![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)  
