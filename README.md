@@ -9,18 +9,6 @@ Sentiment analysis on tweets related to the main GPU manufacturers (NVIDIA, AMD,
 
 ---
 
-## 🧰 Tech Stack
-
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="40" />
-  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="40" />
-</p>
-
----
-
 ## 📁 Project Structure
 
 - `main.ipynb` — Main notebook covering all steps:
