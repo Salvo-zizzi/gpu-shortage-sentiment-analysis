@@ -46,7 +46,7 @@ Using Hugging Face's `pipeline`, sentiment is classified as:
 
 ## 📷 Sample Outputs
 
-| Sentiment Distribution | Positive WordCloud |
+| Sentiment Trend over time | Positive WordCloud |
 |------------------------|--------------------|
 | ![](images/Evolution_Sentiment.png) | ![](images/WordCloud_Positive.png) |
 
