@@ -11,17 +11,14 @@ Sentiment analysis on tweets related to the main GPU manufacturers (NVIDIA, AMD,
 
 ## 📁 Project Structure
 
-- `main.ipynb` — Main notebook covering all steps:
-  - Data loading and cleaning  
-  - Text preprocessing  
-  - Sentiment analysis (DistilBERT via Hugging Face)  
-  - Exploratory data analysis (visuals, WordCloud)  
-  - Brand-specific analysis (NVIDIA, AMD, Intel)  
-- `utils/` — Reusable utility functions  
-- `data/` — Tweet dataset (not included)  
-- `output/` — CSV output files (optional)  
-- `requirements.txt` — Required libraries  
-
+- `data/` — Tweet dataset  
+- `images/` — Output images  
+- `notebooks/` — Main notebook  
+- `src/` — Reusable utility functions  
+- `LICENSE` — Project license  
+- `README.md` — Documentation file  
+- `requirements.txt` — Required libraries
+ 
 ---
 
 ## 🤗 Sentiment Analysis
