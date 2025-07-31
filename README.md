@@ -69,8 +69,7 @@ To run this project, make sure you have the following Python libraries installed
 - matplotlib  
 - seaborn  
 - nltk  
-- transformers  
-- scikit-learn  
+- transformers 
 - wordcloud
 
 ## 📄 Licenza
